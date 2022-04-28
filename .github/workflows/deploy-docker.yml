@@ -11,7 +11,7 @@ on:
     tags: [ 'v*.*.*' ]
 
 env:
-  IMAGE_NAME: fjvigil/cenit
+  IMAGE_NAME: fjvigil/cenit-backend
 
 jobs:
   build-and-push:
