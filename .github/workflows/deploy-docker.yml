@@ -6,9 +6,6 @@ jobs:
   build-and-push:
     name: build and push image
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     
     steps:
     - uses: actions/checkout@master
